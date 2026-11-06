@@ -2,6 +2,8 @@
 
 A codebase explorer built with **React, TypeScript, and Flask**. Import a public GitHub repository or a ZIP, explore its dependency graph, and read source.
 
+[Try GitMap live on Vercel](https://gitmap-nine.vercel.app/)
+
 ## What works
 
 - Public GitHub imports, including a selected branch. File reads are pinned to the imported commit.
@@ -55,7 +57,7 @@ Open `http://localhost:5173`.
 
 ## Browser-only mode
 
-Leave `VITE_API_BASE_URL` empty. The React application fetches public repository metadata and source directly from GitHub. The hosted version uses this mode. ZIP files are read in the browser.
+Leave `VITE_API_BASE_URL` empty. The React application fetches public repository metadata and source directly from GitHub. The Vercel deployment uses this mode, with GitHub’s `main` branch as its source. ZIP files are read in the browser.
 
 ## Production Flask deployment
 
