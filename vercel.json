@@ -1,0 +1,10 @@
+{
+  "framework": "vite",
+  "redirects": [
+    {
+      "source": "/gitmap-source.zip",
+      "destination": "https://github.com/ak-sh1/GitMap/archive/refs/heads/main.zip",
+      "permanent": false
+    }
+  ]
+}
